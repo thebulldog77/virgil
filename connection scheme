@@ -1,0 +1,2 @@
+Toroidal 8-Cube, 4^8 = 2^16 = 65536
+each node may connect to any node next to it in any direction (a total of 16 neighbours)

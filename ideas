@@ -1,0 +1,6 @@
+second net, which learns to check quality of language (DONE).  Maybe at first train it by feeding it good language, so it knows what should get good ratings; it could also assume that user input should have a positive rating (maybe say +8 for user input) (DONE).  It can also compare its ratings of Virgil's output to the user-supplied ratings (DONE).  Eventually, it will be able to rate Virgil automatically, and then we can set up Virgil as an autonomous thing, conversing without having to ask for ratings.
+
+What are the nodetypes?
+SWITCH - cleared every input; local to each conn
+SESSION - local to each conn
+GLOBAL - shared over all conns; state saved between runs
